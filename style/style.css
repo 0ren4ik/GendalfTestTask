@@ -1,0 +1,69 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+font-size: 11pt;
+}
+
+.gendalf-article {
+    max-width: 20cm;
+    margin: 0 auto;
+    padding: 1cm 2cm;
+}
+
+.heading span{
+    font-weight: bold;
+    background-color: yellow;
+}
+
+h1 {
+    font-size: 22pt;
+}
+
+.preamble {
+    display: grid;
+    grid-template-columns: 12cm 5cm;
+}
+
+p {
+    text-indent: 1.5cm;
+}
+
+.preamble p {
+    font-weight: bold;
+}
+
+.heading-title {
+    font-size: 22px;
+}
+
+.table-mark, th, td, tr {
+   border: 1px solid black;
+   border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    width: calc(100%/3);
+    padding: 0;
+}
+
+td p {
+    margin: 0;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.ordered-list-heading {
+    font-weight: bold;
+}
+
+ol.med-mark {
+    list-style-type: none;
+    counter-reset: item;
+} 
+
+.med-mark__item::before {
+    content: counter(item, upper-roman) ' этап. '; 
+    counter-increment: item;
+}
