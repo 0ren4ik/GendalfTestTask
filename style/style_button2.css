@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: auto;
+}
+
+.article {
+  height:  200px;
+  width: 720px;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  -webkit-box-shadow:0px 1px 1px #000000;
+  -moz-box-shadow:0px 1px 1px #000000;
+  box-shadow: 0 10px 5px #000000;
+  
+}
+
+.Layer_206 {
+    background-image: url("Layer 206.png");
+    opacity: 0.388;
+    position: absolute;
+    left: 27px;
+    top: 288px;
+    width: 773px;
+    height: 10px;
+    z-index: 7;
+  }
+  
+
+.arrow {
+transform: translateY(-125%);
+margin-top: 0;
+float: none;
+height: 30px;
+margin: 0 auto;
+padding: 0px;
+position: relative;
+width: auto;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.rotated {
+    -webkit-transform : rotate(180deg); 
+    -moz-transform : rotate(180deg); 
+    -ms-transform : rotate(180deg); 
+    -o-transform : rotate(180deg); 
+    transform : rotate(180deg); 
+}
+
